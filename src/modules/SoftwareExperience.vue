@@ -239,29 +239,29 @@ const projectList = reactive([
       '接入 Ping++ 实现计费功能模块；',
     ],
   },
-  {
-    projectName: '银行贷款分析系统',
-    cycle: '信永中和 / 2023.02 - 2023.03',
-    technologyStack: ['Vue3', 'Element Plus', 'Socket.io', 'Nest.js'],
-    projectBackground: '提供多银行年度数据上传与分析，输出分析报告与图表展示。',
-    duty: [
-      '实现大文件切片上传与实时进度推送（Socket.io）；',
-      '使用 Nest.js 编写中间件服务并对接第三方分析平台；',
-      '负责模块划分、接口联调与业务对接；',
-    ],
-  },
-  {
-    projectName: 'H-GZ-F 数据分析平台',
-    cycle: '信永中和 / 2022.08 - 2022.12',
-    technologyStack: ['React', 'ECharts', 'em'],
-    projectBackground:
-      '基于第三方分析产品二次开发的数据展示平台，支持大屏适配与图表展示。',
-    duty: [
-      '实现 em 单位的大屏适配方案；',
-      '重构侧边栏与图表组件；',
-      '负责任务分配、进度把控与业务联动；',
-    ],
-  },
+  // {
+  //   projectName: '银行贷款分析系统',
+  //   cycle: '信永中和 / 2023.02 - 2023.03',
+  //   technologyStack: ['Vue3', 'Element Plus', 'Socket.io', 'Nest.js'],
+  //   projectBackground: '提供多银行年度数据上传与分析，输出分析报告与图表展示。',
+  //   duty: [
+  //     '实现大文件切片上传与实时进度推送（Socket.io）；',
+  //     '使用 Nest.js 编写中间件服务并对接第三方分析平台；',
+  //     '负责模块划分、接口联调与业务对接；',
+  //   ],
+  // },
+  // {
+  //   projectName: 'H-GZ-F 数据分析平台',
+  //   cycle: '信永中和 / 2022.08 - 2022.12',
+  //   technologyStack: ['React', 'ECharts', 'em'],
+  //   projectBackground:
+  //     '基于第三方分析产品二次开发的数据展示平台，支持大屏适配与图表展示。',
+  //   duty: [
+  //     '实现 em 单位的大屏适配方案；',
+  //     '重构侧边栏与图表组件；',
+  //     '负责任务分配、进度把控与业务联动；',
+  //   ],
+  // },
   // {
   //   projectName: '流程挖掘系统',
   //   cycle: '信永中和 / 2020.12 - 2021.02',
