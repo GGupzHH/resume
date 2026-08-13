@@ -50,7 +50,7 @@ const userInfo = reactive([
   },
   {
     icon: 'icon-WEBqianduan',
-    text: '期望职位：web前端开发工程师 / 技术经理'
+    text: '期望职位：研发工程师 / 技术经理'
   },
   {
     icon: 'icon-shouji3',
