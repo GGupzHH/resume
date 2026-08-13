@@ -36,7 +36,7 @@ const proxy = getCurrentInstance()?.proxy
 const projectList = reactive([
   {
     projectName: '工时管理系统开发',
-    cycle: '2026.04 - 至今',
+    cycle: 'TCL 格创东智 / 2026.04 - 至今',
     technologyStack: [
       'Vue3',
       'TypeScript',
@@ -63,7 +63,7 @@ const projectList = reactive([
   },
   {
     projectName: 'ITSM Agent 相关逻辑开发',
-    cycle: '2026.04 - 2026.05',
+    cycle: 'TCL 格创东智 / 2026.04 - 2026.05',
     technologyStack: [
       'Node.js',
       'TypeScript',
@@ -87,7 +87,7 @@ const projectList = reactive([
   },
   {
     projectName: 'FDC 系统开发',
-    cycle: '2025.08 - 至今',
+    cycle: 'TCL 格创东智 / 2025.08 - 至今',
     technologyStack: [
       'React',
       'TypeScript',
