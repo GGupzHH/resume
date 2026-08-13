@@ -118,7 +118,7 @@ const projectList = reactive([
   },
   {
     projectName: '智能应用平台定制化改造',
-    cycle: 'TCL-中环材料 / 2025.02 - 至今',
+    cycle: 'TCL-中环 / 2025.02 - 至今',
     technologyStack: ['Nest.js', 'React', 'TypeScript', 'Docker'],
     projectBackground:
       '基于某开源智能应用平台，结合公司内部业务需求进行界面风格调整与功能改造，提升平台适用性与易用性。',
@@ -130,7 +130,7 @@ const projectList = reactive([
   },
   {
     projectName: '炉炉互联系统',
-    cycle: 'TCL-中环材料 / 2024.08 - 至今',
+    cycle: 'TCL-中环 / 2024.08 - 至今',
     technologyStack: ['Vue2', 'Webpack', 'Element UI', 'Vue-CLI', 'Java', 'SpringBoot'],
     projectBackground:
       '该系统聚焦异常工艺过程监控，通过异常数据预警、红线报警、自动推送等功能，实现炉台运行状态全面监控。同时引入炉台好坏自驱学习模型，助力降本增效。',
@@ -142,7 +142,7 @@ const projectList = reactive([
   },
   {
     projectName: '视觉模型系统',
-    cycle: 'TCL-中环材料 / 2024.08 - 2025.04',
+    cycle: 'TCL-中环 / 2024.08 - 2025.04',
     technologyStack: [
       'TypeScript',
       'AutoImport',
@@ -162,7 +162,7 @@ const projectList = reactive([
   },
   {
     projectName: '工艺 SOP 参数监控系统',
-    cycle: 'TCL-中环材料 / 2024.08 - 2025.03',
+    cycle: 'TCL-中环 / 2024.08 - 2025.03',
     technologyStack: [
       'Vue3',
       'TypeScript',
@@ -192,7 +192,7 @@ const projectList = reactive([
   // },
   {
     projectName: 'PMS 系统前端设计开发',
-    cycle: 'TCL-中环材料 / 2024.01 - 至今',
+    cycle: 'TCL-中环 / 2024.01 - 至今',
     technologyStack: ['Vue2', 'Webpack', 'UnoCSS', 'Vue3', 'Vant UI', 'Uniapp'],
     projectBackground: '涵盖 PC + PDA 双端系统，提升生产执行流程管理效率。',
     duty: [
@@ -203,7 +203,7 @@ const projectList = reactive([
   },
   {
     projectName: '环晔 MES 系统',
-    cycle: 'TCL-中环材料 / 2023.08 - 2024.01',
+    cycle: 'TCL-中环 / 2023.08 - 2024.01',
     technologyStack: ['Vue2', 'Element UI'],
     projectBackground:
       '推动清洗工序、料签打印等产线业务线上化，提升产线透明度与管理效率。',
