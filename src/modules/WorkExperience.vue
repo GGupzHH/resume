@@ -51,7 +51,7 @@ const companyList = reactive([
     ],
   },
   {
-    companyName: 'TCL-中环材料',
+    companyName: 'TCL中环新能源科技股份有限公司',
     cycle: '2023年8月-2025年8月',
     branch: '流程与IT部',
     title: '研发工程师',
