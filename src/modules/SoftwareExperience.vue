@@ -35,6 +35,88 @@ const proxy = getCurrentInstance()?.proxy
 
 const projectList = reactive([
   {
+    projectName: '工时管理系统开发',
+    cycle: '2026.04 - 至今',
+    technologyStack: [
+      'Vue3',
+      'TypeScript',
+      'Vite',
+      'Pinia',
+      'Naive UI',
+      'NestJS',
+      'TypeORM',
+      'MySQL',
+      'JWT',
+      'LangGraph',
+      'OpenAI',
+      'SSE',
+    ],
+    projectBackground:
+      '面向企业内部项目团队的项目流程与工时管理平台，建立组织、项目、需求、工时与统计分析的业务闭环。',
+    duty: [
+      '独立负责前后端开发，完成认证授权、用户角色、组织管理、项目管理、需求管理和工时管理等核心模块；',
+      '基于 JWT、Refresh Token 轮换、HttpOnly Cookie、RBAC 及项目成员关系实现认证安全和项目级数据权限；',
+      '实现项目生命周期、需求状态流转、需求验收和项目结项校验，维护项目、需求与工时之间的业务约束；',
+      '通过事务和 FOR UPDATE 悲观锁实现每日工时上限校验，并自动汇总需求实际工时；',
+      '基于 LangGraph、OpenAI 和 SSE 实现只读智能问数能力，支持自然语言查询业务数据并流式返回结果；',
+    ],
+  },
+  {
+    projectName: 'ITSM Agent 相关逻辑开发',
+    cycle: '2026.04 - 2026.05',
+    technologyStack: [
+      'Node.js',
+      'TypeScript',
+      '中文分词',
+      'TF-IDF',
+      '向量数据库',
+      'Embedding',
+      'RAG',
+      'Dify',
+      '蓝鲸 GSE/Job/OpenAPI',
+    ],
+    projectBackground:
+      '面向 ITSM 工单场景配置智能检索与 Agent 能力，结合历史工单知识库辅助故障分析和运维问题处理。',
+    duty: [
+      '参与 ITSM Agent 相关逻辑开发，完成历史工单清洗、中文分词、文本切分和知识库数据整理；',
+      '参与 Embedding 模型及向量数据库配置，建立工单知识的向量化存储和相似内容召回流程；',
+      '参与 RAG 检索增强生成流程配置，将历史工单、处理过程和解决方案作为上下文辅助 Agent 生成回答；',
+      '基于 TF-IDF、余弦相似度和层次聚类分析历史工单，为问题分类、相似工单发现和知识库建设提供支持；',
+      '对接 Dify 知识库及蓝鲸 GSE、Job、OpenAPI 等能力，推动知识检索与自动化运维任务联动；',
+    ],
+  },
+  {
+    projectName: 'FDC 系统开发',
+    cycle: '2025.08 - 至今',
+    technologyStack: [
+      'React',
+      'TypeScript',
+      'Vite',
+      'Ant Design',
+      'MobX',
+      'React Query',
+      'ECharts',
+      'AntV',
+      'WebSocket',
+      'SpringBoot',
+      'Spring Cloud Alibaba',
+      'Dubbo',
+      'Nacos',
+      'Kafka',
+      'MySQL',
+      'ClickHouse',
+    ],
+    projectBackground:
+      '面向制造设备及工艺过程的 FDC 故障检测与分类平台，覆盖数据采集、实时监控、检测建模、告警分析和生产履历追溯。',
+    duty: [
+      '独立负责前后端整体开发，完成用户权限、设备采集、数据分析、检测建模、告警管理和系统配置等核心模块；',
+      '基于 React、Ant Design、ECharts 和 AntV 实现实时曲线、历史趋势、告警统计、设备看板及模型配置页面；',
+      '基于 SpringBoot、Dubbo 和 Nacos 构建用户、配置、数据、告警等服务，完成 RESTful API、RPC 服务和权限控制；',
+      '基于 Kafka 处理 Trace、Event、Summary、Resume、告警及配置更新消息，结合 WebSocket 实现实时数据推送和断线重连；',
+      '采用 MySQL 与 ClickHouse 双存储架构，完成检测模型、阈值规则、告警追溯、异常分析和大规模过程数据查询；',
+    ],
+  },
+  {
     projectName: '智能应用平台定制化改造',
     cycle: 'TCL-中环材料 / 2025.02 - 至今',
     technologyStack: ['Nest.js', 'React', 'TypeScript', 'Docker'],
@@ -49,7 +131,7 @@ const projectList = reactive([
   {
     projectName: '炉炉互联系统',
     cycle: 'TCL-中环材料 / 2024.08 - 至今',
-    technologyStack: ['Vue2', 'Webpack', 'Element UI', 'Vue-CLI'],
+    technologyStack: ['Vue2', 'Webpack', 'Element UI', 'Vue-CLI', 'Java', 'SpringBoot'],
     projectBackground:
       '该系统聚焦异常工艺过程监控，通过异常数据预警、红线报警、自动推送等功能，实现炉台运行状态全面监控。同时引入炉台好坏自驱学习模型，助力降本增效。',
     duty: [
@@ -61,7 +143,14 @@ const projectList = reactive([
   {
     projectName: '视觉模型系统',
     cycle: 'TCL-中环材料 / 2024.08 - 2025.04',
-    technologyStack: ['TypeScript', 'AutoImport', 'UnoCSS', 'Vite4'],
+    technologyStack: [
+      'TypeScript',
+      'AutoImport',
+      'UnoCSS',
+      'Vite4',
+      'Java',
+      'SpringBoot',
+    ],
     projectBackground:
       '用于展示视觉模型图片与识别结果，提升模型数据可视化与交互效率。',
     duty: [
