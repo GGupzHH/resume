@@ -54,15 +54,15 @@ const userInfo = reactive([
   },
   {
     icon: 'icon-shouji3',
-    text: '手机：158xxxxxxxx'
+    text: '手机：15849493152'
   },
   {
     icon: 'icon-weixin1',
-    text: '微信：xxxxx'
+    text: '微信：GGupzHH'
   },
   {
     icon: 'icon-youxiang',
-    text: '邮箱：xxxx@gmail.com'
+    text: '邮箱：ggupzhh@gmail.com'
   },
 ])
 </script>
